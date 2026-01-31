@@ -1,0 +1,51 @@
+# NAME: ToggleKeys Hotkey (Num Lock 5s)
+# DESCRIPTION: Disables the ToggleKeys hotkey. Use -Undo to enable it.
+# UNDOABLE: Yes
+# UNDO_DESC: Enables the ToggleKeys hotkey.
+# LINK: https://github.com/memstechtips/Winhance
+#
+
+param (
+    [switch]$Undo,
+    [switch]$Verbose
+)
+
+$VerbosePreference = if ($Verbose) { "Continue" } else { "SilentlyContinue" }
+$ErrorActionPreference = "Stop"
+
+$RegistryPath = "HKCU:\Control Panel\Accessibility\ToggleKeys"
+$ValueName = "Flags"
+
+# Set up logging
+$LogFile = Join-Path $PSScriptRoot "$(Split-Path -Leaf $PSCommandPath).log"
+
+function Write-Log {
+    param (
+        [string]$Message,
+        [string]$Level = "INFO"
+    )
+    $Timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $LogEntry = "$Timestamp - $Level - $Message"
+    Write-Host $LogEntry
+    Add-Content -Path $LogFile -Value $LogEntry
+}
+
+try {
+    if (-not (Test-Path -Path $RegistryPath)) {
+        New-Item -Path $RegistryPath -Force | Out-Null
+    }
+
+    if ($Undo) {
+        Set-ItemProperty -Path $RegistryPath -Name $ValueName -Value "62" -Type String -Force
+        Write-Log "ToggleKeys hotkey enabled." "INFO"
+    } else {
+        Set-ItemProperty -Path $RegistryPath -Name $ValueName -Value "34" -Type String -Force
+        Write-Log "ToggleKeys hotkey disabled." "INFO"
+    }
+
+    Write-Log "Script completed successfully." "INFO"
+    exit 0
+} catch {
+    Write-Log "An error occurred: $($_.Exception.Message)" "ERROR"
+    exit 1
+}

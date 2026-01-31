@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; Disable Edge recommendations, MSN feed, shopping assistant, and more
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"NewTabPageContentEnabled"=dword:00000000
+"NewTabPageHideDefaultTopSites"=dword:00000001
+"EdgeShoppingAssistantEnabled"=dword:00000000
+"TabServicesEnabled"=dword:00000000
+"AlternateErrorPagesEnabled"=dword:00000000
+"UserFeedbackAllowed"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+"WalletDonationEnabled"=dword:00000000

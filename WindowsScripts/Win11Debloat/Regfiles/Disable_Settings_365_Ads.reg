@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable Microsoft 365 ads in Settings Home
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableConsumerAccountStateContent"=dword:00000001
