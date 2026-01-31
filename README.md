@@ -1,6 +1,353 @@
 # WinPick-Scripts
 The public scripts repository for the WinPick Client.
 
+## System Utilities
+| Script | Description |
+|--------|-------------|
+| Clear-Temp.ps1 | Utility: Clear-Temp. |
+| Create-File.ps1 | Utility: Create-File. |
+| Edit-Hosts.ps1 | Utility: Edit-Hosts. |
+| Enable-Trusted-Remoting.ps1 | Utility: Enable-Trusted-Remoting. |
+| Extract-HTMLTable.ps1 | Utility: Extract-HTMLTable. |
+| Get-Clipboard-History.ps1 | Utility: Get-Clipboard-History. |
+| Get-DotNet-Version.ps1 | Utility: Get-DotNet-Version. |
+| Get-Installed.ps1 | Utility: Get-Installed. |
+| Get-MSIFile-Information.ps1 | Utility: Get-MSIFile-Information. |
+| Install-Chocolatey.ps1 | Utility: Install-Chocolatey. |
+| Install-Docker.ps1 | Utility: Install-Docker. |
+| Install-GitHub-CLI.ps1 | Utility: Install-GitHub-CLI. |
+| Install-WSL.ps1 | Utility: Install-WSL. |
+| Invoke-ConcatenateCSV.ps1 | Utility: Invoke-ConcatenateCSV. |
+| Kill-Chrome.ps1 | Utility: Kill-Chrome. |
+| Kill-Notepad.ps1 | Utility: Kill-Notepad. |
+| List-Installed-Software.ps1 | Utility: List-Installed-Software. |
+| List-Services.ps1 | Utility: List-Services. |
+| List-Tasks.ps1 | Utility: List-Tasks. |
+| Open-Windows-Terminal.ps1 | Utility: Open-Windows-Terminal. |
+| Remove-Docker-Trash.ps1 | Utility: Remove-Docker-Trash. |
+| Repair-Path.ps1 | Utility: Repair-Path. |
+| Restart-Bluetooth.ps1 | Utility: Restart-Bluetooth. |
+| Restart-Network-Adapters.ps1 | Utility: Restart-Network-Adapters. |
+| Save-Download.ps1 | Utility: Save-Download. |
+| Save-Screenshot.ps1 | Utility: Save-Screenshot. |
+| Set-Sleep-Schedule.ps1 | Utility: Set-Sleep-Schedule. |
+| Set-Wallpaper.ps1 | Utility: Set-Wallpaper. |
+| Start-Chrome-Fullscreen.ps1 | Utility: Start-Chrome-Fullscreen. |
+| Start-Chrome.ps1 | Utility: Start-Chrome. |
+| Start-Notepad-Maximized.ps1 | Utility: Start-Notepad-Maximized. |
+| Test-Reboot-Pending.ps1 | Utility: Test-Reboot-Pending. |
+| Uninstall-PowerShellModuleAndDependencies.ps1 | Utility: Uninstall-PowerShellModuleAndDependencies. |
+| Update-AllPowerShellModules.ps1 | Utility: Update-AllPowerShellModules. |
+| Update-Choco.ps1 | Utility: Update-Choco. |
+| Update-Environment.ps1 | Utility: Update-Environment. |
+| Update-PowerShellResource.ps1 | Utility: Update-PowerShellResource. |
+
+## System Tweaks
+| Script | Description |
+|--------|-------------|
+| Disable-Accessibility-Keys.ps1 | System tweak: Disable-Accessibility-Keys. |
+| Disable-Action-Center.ps1 | System tweak: Disable-Action-Center. |
+| Disable-Aero-Shake.ps1 | System tweak: Disable-Aero-Shake. |
+| Disable-GameDVR-GameBar.ps1 | System tweak: Disable-GameDVR-GameBar. |
+| Enable-Classic-Battery-Flyout.ps1 | System tweak: Enable-Classic-Battery-Flyout. |
+| Enable-Classic-Context-Menu.ps1 | System tweak: Enable-Classic-Context-Menu. |
+| Enable-Classic-Volume-Flyout.ps1 | System tweak: Enable-Classic-Volume-Flyout. |
+| Enable-Crash-Dumps.ps1 | System tweak: Enable-Crash-Dumps. |
+| Enable-God-Mode.ps1 | System tweak: Enable-God-Mode. |
+| Enable-Photo-Viewer.ps1 | System tweak: Enable-Photo-Viewer. |
+| Enable-Verbose-Startup.ps1 | System tweak: Enable-Verbose-Startup. |
+| Set-Explorer-ThisPC.ps1 | System tweak: Set-Explorer-ThisPC. |
+| Show-File-Extensions.ps1 | System tweak: Show-File-Extensions. |
+| Show-Hidden-Files.ps1 | System tweak: Show-Hidden-Files. |
+| Use-UTC-SystemClock.ps1 | System tweak: Use-UTC-SystemClock. |
+
+## Optimize/Gaming and Performance
+| Script | Description |
+|--------|-------------|
+| Game-Mode.ps1 | Apply optimization: Game-Mode. |
+| Enhance-Pointer-Precision.ps1 | Apply optimization: Enhance-Pointer-Precision. |
+| Startup-Delay-for-Apps.ps1 | Apply optimization: Startup-Delay-for-Apps. |
+| Let-Apps-Run-in-Background.ps1 | Apply optimization: Let-Apps-Run-in-Background. |
+| Storage-Sense.ps1 | Apply optimization: Storage-Sense. |
+| Search-Entire-File-System.ps1 | Apply optimization: Search-Entire-File-System. |
+| Allow-Desktop-Wallpaper-Compression.ps1 | Apply optimization: Allow-Desktop-Wallpaper-Compression. |
+| Enable-Menu-Show-Delay.ps1 | Apply optimization: Enable-Menu-Show-Delay. |
+| Alt-Tab-Filter.ps1 | Apply optimization: Alt-Tab-Filter. |
+| Adjust-Processor-Performance.ps1 | Apply optimization: Adjust-Processor-Performance. |
+| System-Responsiveness-for-Games.ps1 | Apply optimization: System-Responsiveness-for-Games. |
+| CPU-Priority-for-Gaming.ps1 | Apply optimization: CPU-Priority-for-Gaming. |
+| High-Scheduling-Category-for-Gaming.ps1 | Apply optimization: High-Scheduling-Category-for-Gaming. |
+| GPU-Priority-for-Gaming.ps1 | Apply optimization: GPU-Priority-for-Gaming. |
+| Hardware-Accelerated-GPU-Scheduling.ps1 | Apply optimization: Hardware-Accelerated-GPU-Scheduling. |
+| Optimizations-for-Windowed-Games.ps1 | Apply optimization: Optimizations-for-Windowed-Games. |
+| Variable-Refresh-Rate-Optimizations.ps1 | Apply optimization: Variable-Refresh-Rate-Optimizations. |
+| Legacy-NVIDIA-Sharpening.ps1 | Apply optimization: Legacy-NVIDIA-Sharpening. |
+| Fullscreen-Optimizations.ps1 | Apply optimization: Fullscreen-Optimizations. |
+| Desktop-Composition-Effects.ps1 | Apply optimization: Desktop-Composition-Effects. |
+| Disable-Network-Throttling-for-Gaming.ps1 | Apply optimization: Disable-Network-Throttling-for-Gaming. |
+| Enable-Nagles-Algorithm.ps1 | Apply optimization: Enable-Nagles-Algorithm. |
+| Xbox-Game-DVR.ps1 | Apply optimization: Xbox-Game-DVR. |
+| Game-Bar-Controller-Access.ps1 | Apply optimization: Game-Bar-Controller-Access. |
+| Game-Bar-Tips-and-Hints.ps1 | Apply optimization: Game-Bar-Tips-and-Hints. |
+| Optimize-Background-Services.ps1 | Apply optimization: Optimize-Background-Services. |
+| SysMain-Service.ps1 | Apply optimization: SysMain-Service. |
+| Prefetch-Feature.ps1 | Apply optimization: Prefetch-Feature. |
+| Windows-Search-Indexing-Service.ps1 | Apply optimization: Windows-Search-Indexing-Service. |
+| Print-Spooler-Service.ps1 | Apply optimization: Print-Spooler-Service. |
+| Connected-User-Experiences-and-Telemetry-Service.ps1 | Apply optimization: Connected-User-Experiences-and-Telemetry-Service. |
+| Program-Compatibility-Assistant-Service.ps1 | Apply optimization: Program-Compatibility-Assistant-Service. |
+| Windows-Error-Reporting-Service.ps1 | Apply optimization: Windows-Error-Reporting-Service. |
+| Geolocation-Service.ps1 | Apply optimization: Geolocation-Service. |
+| Retail-Demo-Service.ps1 | Apply optimization: Retail-Demo-Service. |
+| Windows-Insider-Service.ps1 | Apply optimization: Windows-Insider-Service. |
+| Phone-Service.ps1 | Apply optimization: Phone-Service. |
+| Wallet-Service.ps1 | Apply optimization: Wallet-Service. |
+| Smart-Card-Services.ps1 | Apply optimization: Smart-Card-Services. |
+| Downloaded-Maps-Manager.ps1 | Apply optimization: Downloaded-Maps-Manager. |
+| Fax-Service.ps1 | Apply optimization: Fax-Service. |
+| Windows-Media-Player-Network-Sharing-Service.ps1 | Apply optimization: Windows-Media-Player-Network-Sharing-Service. |
+| Windows-Mixed-Reality-OpenXR-Service.ps1 | Apply optimization: Windows-Mixed-Reality-OpenXR-Service. |
+| Windows-Mobile-Hotspot-Service.ps1 | Apply optimization: Windows-Mobile-Hotspot-Service. |
+| Microsoft-Windows-SMS-Router-Service.ps1 | Apply optimization: Microsoft-Windows-SMS-Router-Service. |
+| Parental-Controls-Service.ps1 | Apply optimization: Parental-Controls-Service. |
+| Payments-and-NFC-SE-Manager.ps1 | Apply optimization: Payments-and-NFC-SE-Manager. |
+| Spot-Verifier-Service.ps1 | Apply optimization: Spot-Verifier-Service. |
+| Remote-Access-Connection-Manager.ps1 | Apply optimization: Remote-Access-Connection-Manager. |
+| Remote-Access-Auto-Connection-Manager.ps1 | Apply optimization: Remote-Access-Auto-Connection-Manager. |
+| Remote-Desktop-Services.ps1 | Apply optimization: Remote-Desktop-Services. |
+| Remote-Desktop-Configuration.ps1 | Apply optimization: Remote-Desktop-Configuration. |
+| Remote-Desktop-Services-UserMode-Port-Redirector.ps1 | Apply optimization: Remote-Desktop-Services-UserMode-Port-Redirector. |
+| Background-Intelligent-Transfer-Service.ps1 | Apply optimization: Background-Intelligent-Transfer-Service. |
+| Xbox-Live-Auth-Manager.ps1 | Apply optimization: Xbox-Live-Auth-Manager. |
+| Xbox-Live-Game-Save.ps1 | Apply optimization: Xbox-Live-Game-Save. |
+| Xbox-Live-Networking-Service.ps1 | Apply optimization: Xbox-Live-Networking-Service. |
+| Windows-Biometric-Service.ps1 | Apply optimization: Windows-Biometric-Service. |
+| Touch-Keyboard-and-Handwriting-Panel-Service.ps1 | Apply optimization: Touch-Keyboard-and-Handwriting-Panel-Service. |
+| Sensor-Monitoring-Service.ps1 | Apply optimization: Sensor-Monitoring-Service. |
+| Sensor-Data-Service.ps1 | Apply optimization: Sensor-Data-Service. |
+| Microsoft-Compatibility-Appraiser-Task.ps1 | Apply optimization: Microsoft-Compatibility-Appraiser-Task. |
+| Program-Data-Updater-Task.ps1 | Apply optimization: Program-Data-Updater-Task. |
+| Customer-Experience-Improvement-Program-Consolidator.ps1 | Apply optimization: Customer-Experience-Improvement-Program-Consolidator. |
+| USB-CEIP-Task.ps1 | Apply optimization: USB-CEIP-Task. |
+| Disk-Diagnostic-Data-Collector-Task.ps1 | Apply optimization: Disk-Diagnostic-Data-Collector-Task. |
+| Feedback-DmClient-Task.ps1 | Apply optimization: Feedback-DmClient-Task. |
+| Feedback-DmClient-Scenario-Download-Task.ps1 | Apply optimization: Feedback-DmClient-Scenario-Download-Task. |
+| Windows-Error-Reporting-Queue-Task.ps1 | Apply optimization: Windows-Error-Reporting-Queue-Task. |
+| Software-Quality-Metrics-Task.ps1 | Apply optimization: Software-Quality-Metrics-Task. |
+| MAR-Backup-Task.ps1 | Apply optimization: MAR-Backup-Task. |
+| Startup-App-Task.ps1 | Apply optimization: Startup-App-Task. |
+| Program-Compatibility-Assistant-Patch-Task.ps1 | Apply optimization: Program-Compatibility-Assistant-Patch-Task. |
+| Maps-Update-Task.ps1 | Apply optimization: Maps-Update-Task. |
+| AutoChk-Proxy-Task.ps1 | Apply optimization: AutoChk-Proxy-Task. |
+| Family-Safety-Monitor-Task.ps1 | Apply optimization: Family-Safety-Monitor-Task. |
+| Power-Efficiency-Diagnostics-Task.ps1 | Apply optimization: Power-Efficiency-Diagnostics-Task. |
+| Animate-Controls-and-Elements-Inside-Windows.ps1 | Apply optimization: Animate-Controls-and-Elements-Inside-Windows. |
+| Animate-Windows-When-Minimizing-and-Maximizing.ps1 | Apply optimization: Animate-Windows-When-Minimizing-and-Maximizing. |
+| Animations-in-the-Taskbar.ps1 | Apply optimization: Animations-in-the-Taskbar. |
+| Enable-Peek.ps1 | Apply optimization: Enable-Peek. |
+| Fade-or-Slide-Menus-Into-View.ps1 | Apply optimization: Fade-or-Slide-Menus-Into-View. |
+| Fade-or-Slide-ToolTips-Into-View.ps1 | Apply optimization: Fade-or-Slide-ToolTips-Into-View. |
+| Fade-Out-Menu-Items-After-Clicking.ps1 | Apply optimization: Fade-Out-Menu-Items-After-Clicking. |
+| Save-Taskbar-Thumbnail-Previews.ps1 | Apply optimization: Save-Taskbar-Thumbnail-Previews. |
+| Show-Shadows-Under-Mouse-Pointer.ps1 | Apply optimization: Show-Shadows-Under-Mouse-Pointer. |
+| Show-Shadows-Under-Windows.ps1 | Apply optimization: Show-Shadows-Under-Windows. |
+| Show-Thumbnails-Instead-of-Icons.ps1 | Apply optimization: Show-Thumbnails-Instead-of-Icons. |
+| Show-Translucent-Selection-Rectangle.ps1 | Apply optimization: Show-Translucent-Selection-Rectangle. |
+| Show-Window-Contents-While-Dragging.ps1 | Apply optimization: Show-Window-Contents-While-Dragging. |
+| Slide-Open-Combo-Boxes.ps1 | Apply optimization: Slide-Open-Combo-Boxes. |
+| Smooth-Edges-of-Screen-Fonts.ps1 | Apply optimization: Smooth-Edges-of-Screen-Fonts. |
+| Smooth-Scroll-List-Boxes.ps1 | Apply optimization: Smooth-Scroll-List-Boxes. |
+| Use-Drop-Shadows-for-Icon-Labels-on-the-Desktop.ps1 | Apply optimization: Use-Drop-Shadows-for-Icon-Labels-on-the-Desktop. |
+| Narrator-Win-Ctrl-Enter-Hotkey.ps1 | Apply optimization: Narrator-Win-Ctrl-Enter-Hotkey. |
+| StickyKeys-Hotkey.ps1 | Apply optimization: StickyKeys-Hotkey. |
+| FilterKeys-Hotkey.ps1 | Apply optimization: FilterKeys-Hotkey. |
+| ToggleKeys-Hotkey.ps1 | Apply optimization: ToggleKeys-Hotkey. |
+| MouseKeys-Hotkey.ps1 | Apply optimization: MouseKeys-Hotkey. |
+| High-Contrast-Hotkey.ps1 | Apply optimization: High-Contrast-Hotkey. |
+
+## Optimize/Notifications
+| Script | Description |
+|--------|-------------|
+| Show-Notifications.ps1 | Apply optimization: Show-Notifications. |
+| Allow-Notifications-to-Play-Sounds.ps1 | Apply optimization: Allow-Notifications-to-Play-Sounds. |
+| Show-Notifications-on-the-Lock-Screen.ps1 | Apply optimization: Show-Notifications-on-the-Lock-Screen. |
+| Show-Reminders-and-Incoming-VoIP-Calls-on-the-Lock-Screen.ps1 | Apply optimization: Show-Reminders-and-Incoming-VoIP-Calls-on-the-Lock-Screen. |
+| Show-Notification-Bell-Icon.ps1 | Apply optimization: Show-Notification-Bell-Icon. |
+| Show-the-Windows-Welcome-Experience-After-Updates.ps1 | Apply optimization: Show-the-Windows-Welcome-Experience-After-Updates. |
+| Suggest-Ways-to-Get-the-Most-Out-of-Windows.ps1 | Apply optimization: Suggest-Ways-to-Get-the-Most-Out-of-Windows. |
+| Get-Tips-and-Suggestions-When-Using-Windows.ps1 | Apply optimization: Get-Tips-and-Suggestions-When-Using-Windows. |
+| Show-Suggestions-in-Notification-Center.ps1 | Apply optimization: Show-Suggestions-in-Notification-Center. |
+| Capability-Access-Notifications.ps1 | Apply optimization: Capability-Access-Notifications. |
+| Startup-App-Notifications.ps1 | Apply optimization: Startup-App-Notifications. |
+| Notify-When-Apps-Request-Location.ps1 | Apply optimization: Notify-When-Apps-Request-Location. |
+| Clock-Change-Notifications.ps1 | Apply optimization: Clock-Change-Notifications. |
+| Windows-Security-Notifications.ps1 | Apply optimization: Windows-Security-Notifications. |
+| Security-and-Maintenance-Notifications.ps1 | Apply optimization: Security-and-Maintenance-Notifications. |
+
+## Optimize/Sound
+| Script | Description |
+|--------|-------------|
+| Startup-Sound-During-Boot.ps1 | Apply optimization: Startup-Sound-During-Boot. |
+| Sound-Ducking-Preference.ps1 | Apply optimization: Sound-Ducking-Preference. |
+| Narrator-Audio-Ducking.ps1 | Apply optimization: Narrator-Audio-Ducking. |
+| Voice-Activation-for-Apps.ps1 | Apply optimization: Voice-Activation-for-Apps. |
+| Last-Used-Voice-Activation-Setting.ps1 | Apply optimization: Last-Used-Voice-Activation-Setting. |
+| Accessibility-Activation-Sounds.ps1 | Apply optimization: Accessibility-Activation-Sounds. |
+| Accessibility-Warning-Sounds.ps1 | Apply optimization: Accessibility-Warning-Sounds. |
+
+## Optimize/Windows Updates
+| Script | Description |
+|--------|-------------|
+| Windows-Update-Policy.ps1 | Apply optimization: Windows-Update-Policy. |
+| Delivery-Optimization.ps1 | Apply optimization: Delivery-Optimization. |
+| Get-the-Latest-Updates-as-Soon-as-Theyre-Available.ps1 | Apply optimization: Get-the-Latest-Updates-as-Soon-as-Theyre-Available. |
+| Receive-Updates-for-Other-Microsoft-Products.ps1 | Apply optimization: Receive-Updates-for-Other-Microsoft-Products. |
+| Get-Me-Up-to-Date.ps1 | Apply optimization: Get-Me-Up-to-Date. |
+| Prevent-Automatic-Restarts.ps1 | Apply optimization: Prevent-Automatic-Restarts. |
+| Update-Notifications.ps1 | Apply optimization: Update-Notifications. |
+| Notify-Me-When-a-Restart-Is-Required-to-Finish-Updating.ps1 | Apply optimization: Notify-Me-When-a-Restart-Is-Required-to-Finish-Updating. |
+| Download-Updates-over-Metered-Connections.ps1 | Apply optimization: Download-Updates-over-Metered-Connections. |
+| Do-Not-Include-Drivers-with-Updates.ps1 | Apply optimization: Do-Not-Include-Drivers-with-Updates. |
+| Auto-Update-Microsoft-Store-Apps.ps1 | Apply optimization: Auto-Update-Microsoft-Store-Apps. |
+
+## Bloatware Removal
+| Script | Description |
+|--------|-------------|
+| Disable-WindowsTelemetry.bat | Disable Windows telemetry. |
+| Remove-CommonBloatware.ps1 | Remove common Windows bloatware. |
+| Remove-ThirdPartyBloatware.py | Remove third-party bloatware. |
+| Uninstall-Windows11Apps.cmd | Uninstall default Windows 11 apps. |
+
+## Win11Debloat
+| Script | Description |
+|--------|-------------|
+| Run-Script-Silent-With-Log.ps1 | Win11Debloat: Run-Script-Silent-With-Log. |
+| Apply-Regfile-To-Default-Profile.ps1 | Win11Debloat: Apply-Regfile-To-Default-Profile. |
+| Apply-Regfile-To-User.ps1 | Win11Debloat: Apply-Regfile-To-User. |
+| Create-System-Restore-Point.ps1 | Win11Debloat: Create-System-Restore-Point. |
+| Disable-Windows-Recall.ps1 | Win11Debloat: Disable-Windows-Recall. |
+| Disable-Telemetry-Diagnostic-Data.ps1 | Win11Debloat: Disable-Telemetry-Diagnostic-Data. |
+| Disable-App-Launch-Tracking-And-Ads.ps1 | Win11Debloat: Disable-App-Launch-Tracking-And-Ads. |
+| Disable-Activity-History.ps1 | Win11Debloat: Disable-Activity-History. |
+| Remove-HP-OEM-Apps.ps1 | Win11Debloat: Remove-HP-OEM-Apps. |
+| Remove-Gaming-Apps.ps1 | Win11Debloat: Remove-Gaming-Apps. |
+| Remove-Mail-Calendar-People.ps1 | Win11Debloat: Remove-Mail-Calendar-People. |
+| Remove-Custom-Win11Debloat-Apps.ps1 | Win11Debloat: Remove-Custom-Win11Debloat-Apps. |
+| Remove-Default-Win11Debloat-Apps.ps1 | Win11Debloat: Remove-Default-Win11Debloat-Apps. |
+| Disable-Modern-Standby-Networking.ps1 | Win11Debloat: Disable-Modern-Standby-Networking. |
+| Disable-Fast-Startup.ps1 | Win11Debloat: Disable-Fast-Startup. |
+| Disable-Game-Bar-Integration.ps1 | Win11Debloat: Disable-Game-Bar-Integration. |
+| Disable-Game-DVR.ps1 | Win11Debloat: Disable-Game-DVR. |
+| Disable-Sticky-Keys-Shortcut.ps1 | Win11Debloat: Disable-Sticky-Keys-Shortcut. |
+| Disable-Mouse-Acceleration.ps1 | Win11Debloat: Disable-Mouse-Acceleration. |
+| Disable-Animations.ps1 | Win11Debloat: Disable-Animations. |
+| Disable-Transparency-Effects.ps1 | Win11Debloat: Disable-Transparency-Effects. |
+| Enable-Dark-Mode.ps1 | Win11Debloat: Enable-Dark-Mode. |
+| Hide-Context-Menu-Share.ps1 | Win11Debloat: Hide-Context-Menu-Share. |
+| Hide-Context-Menu-Give-Access-To.ps1 | Win11Debloat: Hide-Context-Menu-Give-Access-To. |
+| Hide-Context-Menu-Include-In-Library.ps1 | Win11Debloat: Hide-Context-Menu-Include-In-Library. |
+| Restore-Classic-Context-Menu.ps1 | Win11Debloat: Restore-Classic-Context-Menu. |
+| Hide-Explorer-Music.ps1 | Win11Debloat: Hide-Explorer-Music. |
+| Hide-Explorer-3D-Objects.ps1 | Win11Debloat: Hide-Explorer-3D-Objects. |
+| Hide-Explorer-OneDrive.ps1 | Win11Debloat: Hide-Explorer-OneDrive. |
+| Hide-Duplicate-Removable-Drives.ps1 | Win11Debloat: Hide-Duplicate-Removable-Drives. |
+| Hide-Explorer-Gallery.ps1 | Win11Debloat: Hide-Explorer-Gallery. |
+| Hide-Explorer-Home.ps1 | Win11Debloat: Hide-Explorer-Home. |
+| Add-Folders-To-This-PC.ps1 | Win11Debloat: Add-Folders-To-This-PC. |
+| Show-File-Extensions.ps1 | Win11Debloat: Show-File-Extensions. |
+| Show-Hidden-Files.ps1 | Win11Debloat: Show-Hidden-Files. |
+| Set-Explorer-Launch-To.ps1 | Win11Debloat: Set-Explorer-Launch-To. |
+| Set-Taskbar-MultiMonitor-Icons.ps1 | Win11Debloat: Set-Taskbar-MultiMonitor-Icons. |
+| Set-Taskbar-Combine-Mode.ps1 | Win11Debloat: Set-Taskbar-Combine-Mode. |
+| Enable-Taskbar-Last-Active-Click.ps1 | Win11Debloat: Enable-Taskbar-Last-Active-Click. |
+| Enable-Taskbar-End-Task.ps1 | Win11Debloat: Enable-Taskbar-End-Task. |
+| Hide-Chat-Meet-Now.ps1 | Win11Debloat: Hide-Chat-Meet-Now. |
+| Disable-Widgets.ps1 | Win11Debloat: Disable-Widgets. |
+| Hide-Task-View-Button.ps1 | Win11Debloat: Hide-Task-View-Button. |
+| Set-Taskbar-Search-Mode.ps1 | Win11Debloat: Set-Taskbar-Search-Mode. |
+| Align-Taskbar-Left.ps1 | Win11Debloat: Align-Taskbar-Left. |
+| Disable-Phone-Link-In-Start.ps1 | Win11Debloat: Disable-Phone-Link-In-Start. |
+| Disable-Start-Recommended.ps1 | Win11Debloat: Disable-Start-Recommended. |
+| Set-Start-Pins.ps1 | Win11Debloat: Set-Start-Pins. |
+| Disable-Notepad-AI-Features.ps1 | Win11Debloat: Disable-Notepad-AI-Features. |
+| Disable-Paint-AI-Features.ps1 | Win11Debloat: Disable-Paint-AI-Features. |
+| Disable-Edge-AI-Features.ps1 | Win11Debloat: Disable-Edge-AI-Features. |
+| Disable-Click-To-Do.ps1 | Win11Debloat: Disable-Click-To-Do. |
+| Disable-Microsoft-Copilot.ps1 | Win11Debloat: Disable-Microsoft-Copilot. |
+| Disable-Bing-Cortana-In-Search.ps1 | Win11Debloat: Disable-Bing-Cortana-In-Search. |
+| Disable-Edge-Ads-And-Suggestions.ps1 | Win11Debloat: Disable-Edge-Ads-And-Suggestions. |
+| Disable-Desktop-Spotlight.ps1 | Win11Debloat: Disable-Desktop-Spotlight. |
+| Disable-Lock-Screen-Tips.ps1 | Win11Debloat: Disable-Lock-Screen-Tips. |
+| Disable-Settings-Suggestions-And-Ads.ps1 | Win11Debloat: Disable-Settings-Suggestions-And-Ads. |
+| Disable-Windows-Suggestions.ps1 | Win11Debloat: Disable-Windows-Suggestions. |
+| Disable-Telemetry-Activity-Ads.ps1 | Win11Debloat: Disable-Telemetry-Activity-Ads. |
+| Appslist.txt | Win11Debloat app list. |
+
+## Win11Debloat/Regfiles
+| File | Description |
+|------|-------------|
+| Disable_Game_Bar_Integration.reg | Win11Debloat reg: Disable_Game_Bar_Integration. |
+| Disable_DVR.reg | Win11Debloat reg: Disable_DVR. |
+| Disable_Modern_Standby_Networking.reg | Win11Debloat reg: Disable_Modern_Standby_Networking. |
+| Disable_Fast_Startup.reg | Win11Debloat reg: Disable_Fast_Startup. |
+| Disable_Sticky_Keys_Shortcut.reg | Win11Debloat reg: Disable_Sticky_Keys_Shortcut. |
+| Disable_Enhance_Pointer_Precision.reg | Win11Debloat reg: Disable_Enhance_Pointer_Precision. |
+| Disable_Animations.reg | Win11Debloat reg: Disable_Animations. |
+| Disable_Transparency.reg | Win11Debloat reg: Disable_Transparency. |
+| Enable_Dark_Mode.reg | Win11Debloat reg: Enable_Dark_Mode. |
+| Disable_Share_from_context_menu.reg | Win11Debloat reg: Disable_Share_from_context_menu. |
+| Disable_Give_access_to_context_menu.reg | Win11Debloat reg: Disable_Give_access_to_context_menu. |
+| Disable_Include_in_library_from_context_menu.reg | Win11Debloat reg: Disable_Include_in_library_from_context_menu. |
+| Disable_Show_More_Options_Context_Menu.reg | Win11Debloat reg: Disable_Show_More_Options_Context_Menu. |
+| Hide_Music_Folder.reg | Win11Debloat reg: Hide_Music_Folder. |
+| Hide_3D_Objects_Folder.reg | Win11Debloat reg: Hide_3D_Objects_Folder. |
+| Hide_Onedrive_Folder.reg | Win11Debloat reg: Hide_Onedrive_Folder. |
+| Hide_duplicate_removable_drives_from_navigation_pane_of_File_Explorer.reg | Win11Debloat reg: Hide_duplicate_removable_drives_from_navigation_pane_of_File_Explorer. |
+| Hide_Gallery_from_Explorer.reg | Win11Debloat reg: Hide_Gallery_from_Explorer. |
+| Hide_Home_from_Explorer.reg | Win11Debloat reg: Hide_Home_from_Explorer. |
+| Add_All_Folders_Under_This_PC.reg | Win11Debloat reg: Add_All_Folders_Under_This_PC. |
+| Show_Extensions_For_Known_File_Types.reg | Win11Debloat reg: Show_Extensions_For_Known_File_Types. |
+| Show_Hidden_Folders.reg | Win11Debloat reg: Show_Hidden_Folders. |
+| Launch_File_Explorer_To_OneDrive.reg | Win11Debloat reg: Launch_File_Explorer_To_OneDrive. |
+| Launch_File_Explorer_To_Downloads.reg | Win11Debloat reg: Launch_File_Explorer_To_Downloads. |
+| Launch_File_Explorer_To_This_PC.reg | Win11Debloat reg: Launch_File_Explorer_To_This_PC. |
+| Launch_File_Explorer_To_Home.reg | Win11Debloat reg: Launch_File_Explorer_To_Home. |
+| MMTaskbarMode_Active.reg | Win11Debloat reg: MMTaskbarMode_Active. |
+| MMTaskbarMode_Main_Active.reg | Win11Debloat reg: MMTaskbarMode_Main_Active. |
+| MMTaskbarMode_All.reg | Win11Debloat reg: MMTaskbarMode_All. |
+| Combine_MMTaskbar_Never.reg | Win11Debloat reg: Combine_MMTaskbar_Never. |
+| Combine_MMTaskbar_When_Full.reg | Win11Debloat reg: Combine_MMTaskbar_When_Full. |
+| Combine_MMTaskbar_Always.reg | Win11Debloat reg: Combine_MMTaskbar_Always. |
+| Combine_Taskbar_Never.reg | Win11Debloat reg: Combine_Taskbar_Never. |
+| Combine_Taskbar_When_Full.reg | Win11Debloat reg: Combine_Taskbar_When_Full. |
+| Combine_Taskbar_Always.reg | Win11Debloat reg: Combine_Taskbar_Always. |
+| Enable_Last_Active_Click.reg | Win11Debloat reg: Enable_Last_Active_Click. |
+| Enable_End_Task.reg | Win11Debloat reg: Enable_End_Task. |
+| Disable_Chat_Taskbar.reg | Win11Debloat reg: Disable_Chat_Taskbar. |
+| Disable_Widgets_Service.reg | Win11Debloat reg: Disable_Widgets_Service. |
+| Hide_Taskview_Taskbar.reg | Win11Debloat reg: Hide_Taskview_Taskbar. |
+| Show_Search_Box.reg | Win11Debloat reg: Show_Search_Box. |
+| Show_Search_Icon_And_Label.reg | Win11Debloat reg: Show_Search_Icon_And_Label. |
+| Show_Search_Icon.reg | Win11Debloat reg: Show_Search_Icon. |
+| Hide_Search_Taskbar.reg | Win11Debloat reg: Hide_Search_Taskbar. |
+| Align_Taskbar_Left.reg | Win11Debloat reg: Align_Taskbar_Left. |
+| Disable_Phone_Link_In_Start.reg | Win11Debloat reg: Disable_Phone_Link_In_Start. |
+| Disable_Start_Recommended.reg | Win11Debloat reg: Disable_Start_Recommended. |
+| Disable_Notepad_AI_Features.reg | Win11Debloat reg: Disable_Notepad_AI_Features. |
+| Disable_Paint_AI_Features.reg | Win11Debloat reg: Disable_Paint_AI_Features. |
+| Disable_Edge_AI_Features.reg | Win11Debloat reg: Disable_Edge_AI_Features. |
+| Disable_Click_to_Do.reg | Win11Debloat reg: Disable_Click_to_Do. |
+| Disable_AI_Recall.reg | Win11Debloat reg: Disable_AI_Recall. |
+| Disable_Copilot.reg | Win11Debloat reg: Disable_Copilot. |
+| Disable_Bing_Cortana_In_Search.reg | Win11Debloat reg: Disable_Bing_Cortana_In_Search. |
+| Disable_Settings_Home.reg | Win11Debloat reg: Disable_Settings_Home. |
+| Disable_Settings_365_Ads.reg | Win11Debloat reg: Disable_Settings_365_Ads. |
+| Disable_Desktop_Spotlight.reg | Win11Debloat reg: Disable_Desktop_Spotlight. |
+| Disable_Lockscreen_Tips.reg | Win11Debloat reg: Disable_Lockscreen_Tips. |
+| Disable_Edge_Ads_And_Suggestions.reg | Win11Debloat reg: Disable_Edge_Ads_And_Suggestions. |
+| Disable_Windows_Suggestions.reg | Win11Debloat reg: Disable_Windows_Suggestions. |
+| Disable_Telemetry.reg | Win11Debloat reg: Disable_Telemetry. |
+
 ## Windows Apps
 | Script | Description |
 |--------|-------------|
@@ -311,163 +658,6 @@ The public scripts repository for the WinPick Client.
 | Visual-C++-2015-2022-x64.ps1 | Install or uninstall Visual-C++-2015-2022-x64. |
 | Visual-C++-2022-ARM64.ps1 | Install or uninstall Visual-C++-2022-ARM64. |
 
-## Optimize/Gaming and Performance
-| Script | Description |
-|--------|-------------|
-| Game-Mode.ps1 | Apply optimization: Game-Mode. |
-| Enhance-Pointer-Precision.ps1 | Apply optimization: Enhance-Pointer-Precision. |
-| Startup-Delay-for-Apps.ps1 | Apply optimization: Startup-Delay-for-Apps. |
-| Let-Apps-Run-in-Background.ps1 | Apply optimization: Let-Apps-Run-in-Background. |
-| Storage-Sense.ps1 | Apply optimization: Storage-Sense. |
-| Search-Entire-File-System.ps1 | Apply optimization: Search-Entire-File-System. |
-| Allow-Desktop-Wallpaper-Compression.ps1 | Apply optimization: Allow-Desktop-Wallpaper-Compression. |
-| Enable-Menu-Show-Delay.ps1 | Apply optimization: Enable-Menu-Show-Delay. |
-| Alt-Tab-Filter.ps1 | Apply optimization: Alt-Tab-Filter. |
-| Adjust-Processor-Performance.ps1 | Apply optimization: Adjust-Processor-Performance. |
-| System-Responsiveness-for-Games.ps1 | Apply optimization: System-Responsiveness-for-Games. |
-| CPU-Priority-for-Gaming.ps1 | Apply optimization: CPU-Priority-for-Gaming. |
-| High-Scheduling-Category-for-Gaming.ps1 | Apply optimization: High-Scheduling-Category-for-Gaming. |
-| GPU-Priority-for-Gaming.ps1 | Apply optimization: GPU-Priority-for-Gaming. |
-| Hardware-Accelerated-GPU-Scheduling.ps1 | Apply optimization: Hardware-Accelerated-GPU-Scheduling. |
-| Optimizations-for-Windowed-Games.ps1 | Apply optimization: Optimizations-for-Windowed-Games. |
-| Variable-Refresh-Rate-Optimizations.ps1 | Apply optimization: Variable-Refresh-Rate-Optimizations. |
-| Legacy-NVIDIA-Sharpening.ps1 | Apply optimization: Legacy-NVIDIA-Sharpening. |
-| Fullscreen-Optimizations.ps1 | Apply optimization: Fullscreen-Optimizations. |
-| Desktop-Composition-Effects.ps1 | Apply optimization: Desktop-Composition-Effects. |
-| Disable-Network-Throttling-for-Gaming.ps1 | Apply optimization: Disable-Network-Throttling-for-Gaming. |
-| Enable-Nagles-Algorithm.ps1 | Apply optimization: Enable-Nagles-Algorithm. |
-| Xbox-Game-DVR.ps1 | Apply optimization: Xbox-Game-DVR. |
-| Game-Bar-Controller-Access.ps1 | Apply optimization: Game-Bar-Controller-Access. |
-| Game-Bar-Tips-and-Hints.ps1 | Apply optimization: Game-Bar-Tips-and-Hints. |
-| Optimize-Background-Services.ps1 | Apply optimization: Optimize-Background-Services. |
-| SysMain-Service.ps1 | Apply optimization: SysMain-Service. |
-| Prefetch-Feature.ps1 | Apply optimization: Prefetch-Feature. |
-| Windows-Search-Indexing-Service.ps1 | Apply optimization: Windows-Search-Indexing-Service. |
-| Print-Spooler-Service.ps1 | Apply optimization: Print-Spooler-Service. |
-| Connected-User-Experiences-and-Telemetry-Service.ps1 | Apply optimization: Connected-User-Experiences-and-Telemetry-Service. |
-| Program-Compatibility-Assistant-Service.ps1 | Apply optimization: Program-Compatibility-Assistant-Service. |
-| Windows-Error-Reporting-Service.ps1 | Apply optimization: Windows-Error-Reporting-Service. |
-| Geolocation-Service.ps1 | Apply optimization: Geolocation-Service. |
-| Retail-Demo-Service.ps1 | Apply optimization: Retail-Demo-Service. |
-| Windows-Insider-Service.ps1 | Apply optimization: Windows-Insider-Service. |
-| Phone-Service.ps1 | Apply optimization: Phone-Service. |
-| Wallet-Service.ps1 | Apply optimization: Wallet-Service. |
-| Smart-Card-Services.ps1 | Apply optimization: Smart-Card-Services. |
-| Downloaded-Maps-Manager.ps1 | Apply optimization: Downloaded-Maps-Manager. |
-| Fax-Service.ps1 | Apply optimization: Fax-Service. |
-| Windows-Media-Player-Network-Sharing-Service.ps1 | Apply optimization: Windows-Media-Player-Network-Sharing-Service. |
-| Windows-Mixed-Reality-OpenXR-Service.ps1 | Apply optimization: Windows-Mixed-Reality-OpenXR-Service. |
-| Windows-Mobile-Hotspot-Service.ps1 | Apply optimization: Windows-Mobile-Hotspot-Service. |
-| Microsoft-Windows-SMS-Router-Service.ps1 | Apply optimization: Microsoft-Windows-SMS-Router-Service. |
-| Parental-Controls-Service.ps1 | Apply optimization: Parental-Controls-Service. |
-| Payments-and-NFC-SE-Manager.ps1 | Apply optimization: Payments-and-NFC-SE-Manager. |
-| Spot-Verifier-Service.ps1 | Apply optimization: Spot-Verifier-Service. |
-| Remote-Access-Connection-Manager.ps1 | Apply optimization: Remote-Access-Connection-Manager. |
-| Remote-Access-Auto-Connection-Manager.ps1 | Apply optimization: Remote-Access-Auto-Connection-Manager. |
-| Remote-Desktop-Services.ps1 | Apply optimization: Remote-Desktop-Services. |
-| Remote-Desktop-Configuration.ps1 | Apply optimization: Remote-Desktop-Configuration. |
-| Remote-Desktop-Services-UserMode-Port-Redirector.ps1 | Apply optimization: Remote-Desktop-Services-UserMode-Port-Redirector. |
-| Background-Intelligent-Transfer-Service.ps1 | Apply optimization: Background-Intelligent-Transfer-Service. |
-| Xbox-Live-Auth-Manager.ps1 | Apply optimization: Xbox-Live-Auth-Manager. |
-| Xbox-Live-Game-Save.ps1 | Apply optimization: Xbox-Live-Game-Save. |
-| Xbox-Live-Networking-Service.ps1 | Apply optimization: Xbox-Live-Networking-Service. |
-| Windows-Biometric-Service.ps1 | Apply optimization: Windows-Biometric-Service. |
-| Touch-Keyboard-and-Handwriting-Panel-Service.ps1 | Apply optimization: Touch-Keyboard-and-Handwriting-Panel-Service. |
-| Sensor-Monitoring-Service.ps1 | Apply optimization: Sensor-Monitoring-Service. |
-| Sensor-Data-Service.ps1 | Apply optimization: Sensor-Data-Service. |
-| Microsoft-Compatibility-Appraiser-Task.ps1 | Apply optimization: Microsoft-Compatibility-Appraiser-Task. |
-| Program-Data-Updater-Task.ps1 | Apply optimization: Program-Data-Updater-Task. |
-| Customer-Experience-Improvement-Program-Consolidator.ps1 | Apply optimization: Customer-Experience-Improvement-Program-Consolidator. |
-| USB-CEIP-Task.ps1 | Apply optimization: USB-CEIP-Task. |
-| Disk-Diagnostic-Data-Collector-Task.ps1 | Apply optimization: Disk-Diagnostic-Data-Collector-Task. |
-| Feedback-DmClient-Task.ps1 | Apply optimization: Feedback-DmClient-Task. |
-| Feedback-DmClient-Scenario-Download-Task.ps1 | Apply optimization: Feedback-DmClient-Scenario-Download-Task. |
-| Windows-Error-Reporting-Queue-Task.ps1 | Apply optimization: Windows-Error-Reporting-Queue-Task. |
-| Software-Quality-Metrics-Task.ps1 | Apply optimization: Software-Quality-Metrics-Task. |
-| MAR-Backup-Task.ps1 | Apply optimization: MAR-Backup-Task. |
-| Startup-App-Task.ps1 | Apply optimization: Startup-App-Task. |
-| Program-Compatibility-Assistant-Patch-Task.ps1 | Apply optimization: Program-Compatibility-Assistant-Patch-Task. |
-| Maps-Update-Task.ps1 | Apply optimization: Maps-Update-Task. |
-| AutoChk-Proxy-Task.ps1 | Apply optimization: AutoChk-Proxy-Task. |
-| Family-Safety-Monitor-Task.ps1 | Apply optimization: Family-Safety-Monitor-Task. |
-| Power-Efficiency-Diagnostics-Task.ps1 | Apply optimization: Power-Efficiency-Diagnostics-Task. |
-| Animate-Controls-and-Elements-Inside-Windows.ps1 | Apply optimization: Animate-Controls-and-Elements-Inside-Windows. |
-| Animate-Windows-When-Minimizing-and-Maximizing.ps1 | Apply optimization: Animate-Windows-When-Minimizing-and-Maximizing. |
-| Animations-in-the-Taskbar.ps1 | Apply optimization: Animations-in-the-Taskbar. |
-| Enable-Peek.ps1 | Apply optimization: Enable-Peek. |
-| Fade-or-Slide-Menus-Into-View.ps1 | Apply optimization: Fade-or-Slide-Menus-Into-View. |
-| Fade-or-Slide-ToolTips-Into-View.ps1 | Apply optimization: Fade-or-Slide-ToolTips-Into-View. |
-| Fade-Out-Menu-Items-After-Clicking.ps1 | Apply optimization: Fade-Out-Menu-Items-After-Clicking. |
-| Save-Taskbar-Thumbnail-Previews.ps1 | Apply optimization: Save-Taskbar-Thumbnail-Previews. |
-| Show-Shadows-Under-Mouse-Pointer.ps1 | Apply optimization: Show-Shadows-Under-Mouse-Pointer. |
-| Show-Shadows-Under-Windows.ps1 | Apply optimization: Show-Shadows-Under-Windows. |
-| Show-Thumbnails-Instead-of-Icons.ps1 | Apply optimization: Show-Thumbnails-Instead-of-Icons. |
-| Show-Translucent-Selection-Rectangle.ps1 | Apply optimization: Show-Translucent-Selection-Rectangle. |
-| Show-Window-Contents-While-Dragging.ps1 | Apply optimization: Show-Window-Contents-While-Dragging. |
-| Slide-Open-Combo-Boxes.ps1 | Apply optimization: Slide-Open-Combo-Boxes. |
-| Smooth-Edges-of-Screen-Fonts.ps1 | Apply optimization: Smooth-Edges-of-Screen-Fonts. |
-| Smooth-Scroll-List-Boxes.ps1 | Apply optimization: Smooth-Scroll-List-Boxes. |
-| Use-Drop-Shadows-for-Icon-Labels-on-the-Desktop.ps1 | Apply optimization: Use-Drop-Shadows-for-Icon-Labels-on-the-Desktop. |
-| Narrator-Win-Ctrl-Enter-Hotkey.ps1 | Apply optimization: Narrator-Win-Ctrl-Enter-Hotkey. |
-| StickyKeys-Hotkey.ps1 | Apply optimization: StickyKeys-Hotkey. |
-| FilterKeys-Hotkey.ps1 | Apply optimization: FilterKeys-Hotkey. |
-| ToggleKeys-Hotkey.ps1 | Apply optimization: ToggleKeys-Hotkey. |
-| MouseKeys-Hotkey.ps1 | Apply optimization: MouseKeys-Hotkey. |
-| High-Contrast-Hotkey.ps1 | Apply optimization: High-Contrast-Hotkey. |
-
-## Optimize/Sound
-| Script | Description |
-|--------|-------------|
-| Startup-Sound-During-Boot.ps1 | Apply optimization: Startup-Sound-During-Boot. |
-| Sound-Ducking-Preference.ps1 | Apply optimization: Sound-Ducking-Preference. |
-| Narrator-Audio-Ducking.ps1 | Apply optimization: Narrator-Audio-Ducking. |
-| Voice-Activation-for-Apps.ps1 | Apply optimization: Voice-Activation-for-Apps. |
-| Last-Used-Voice-Activation-Setting.ps1 | Apply optimization: Last-Used-Voice-Activation-Setting. |
-| Accessibility-Activation-Sounds.ps1 | Apply optimization: Accessibility-Activation-Sounds. |
-| Accessibility-Warning-Sounds.ps1 | Apply optimization: Accessibility-Warning-Sounds. |
-
-## Optimize/Notifications
-| Script | Description |
-|--------|-------------|
-| Show-Notifications.ps1 | Apply optimization: Show-Notifications. |
-| Allow-Notifications-to-Play-Sounds.ps1 | Apply optimization: Allow-Notifications-to-Play-Sounds. |
-| Show-Notifications-on-the-Lock-Screen.ps1 | Apply optimization: Show-Notifications-on-the-Lock-Screen. |
-| Show-Reminders-and-Incoming-VoIP-Calls-on-the-Lock-Screen.ps1 | Apply optimization: Show-Reminders-and-Incoming-VoIP-Calls-on-the-Lock-Screen. |
-| Show-Notification-Bell-Icon.ps1 | Apply optimization: Show-Notification-Bell-Icon. |
-| Show-the-Windows-Welcome-Experience-After-Updates.ps1 | Apply optimization: Show-the-Windows-Welcome-Experience-After-Updates. |
-| Suggest-Ways-to-Get-the-Most-Out-of-Windows.ps1 | Apply optimization: Suggest-Ways-to-Get-the-Most-Out-of-Windows. |
-| Get-Tips-and-Suggestions-When-Using-Windows.ps1 | Apply optimization: Get-Tips-and-Suggestions-When-Using-Windows. |
-| Show-Suggestions-in-Notification-Center.ps1 | Apply optimization: Show-Suggestions-in-Notification-Center. |
-| Capability-Access-Notifications.ps1 | Apply optimization: Capability-Access-Notifications. |
-| Startup-App-Notifications.ps1 | Apply optimization: Startup-App-Notifications. |
-| Notify-When-Apps-Request-Location.ps1 | Apply optimization: Notify-When-Apps-Request-Location. |
-| Clock-Change-Notifications.ps1 | Apply optimization: Clock-Change-Notifications. |
-| Windows-Security-Notifications.ps1 | Apply optimization: Windows-Security-Notifications. |
-| Security-and-Maintenance-Notifications.ps1 | Apply optimization: Security-and-Maintenance-Notifications. |
-
-## Optimize/Windows Updates
-| Script | Description |
-|--------|-------------|
-| Windows-Update-Policy.ps1 | Apply optimization: Windows-Update-Policy. |
-| Delivery-Optimization.ps1 | Apply optimization: Delivery-Optimization. |
-| Get-the-Latest-Updates-as-Soon-as-Theyre-Available.ps1 | Apply optimization: Get-the-Latest-Updates-as-Soon-as-Theyre-Available. |
-| Receive-Updates-for-Other-Microsoft-Products.ps1 | Apply optimization: Receive-Updates-for-Other-Microsoft-Products. |
-| Get-Me-Up-to-Date.ps1 | Apply optimization: Get-Me-Up-to-Date. |
-| Prevent-Automatic-Restarts.ps1 | Apply optimization: Prevent-Automatic-Restarts. |
-| Update-Notifications.ps1 | Apply optimization: Update-Notifications. |
-| Notify-Me-When-a-Restart-Is-Required-to-Finish-Updating.ps1 | Apply optimization: Notify-Me-When-a-Restart-Is-Required-to-Finish-Updating. |
-| Download-Updates-over-Metered-Connections.ps1 | Apply optimization: Download-Updates-over-Metered-Connections. |
-| Do-Not-Include-Drivers-with-Updates.ps1 | Apply optimization: Do-Not-Include-Drivers-with-Updates. |
-| Auto-Update-Microsoft-Store-Apps.ps1 | Apply optimization: Auto-Update-Microsoft-Store-Apps. |
-
-## Bloatware Removal
-| Script | Description |
-|--------|-------------|
-| Disable-WindowsTelemetry.bat | Disable Windows telemetry. |
-| Remove-CommonBloatware.ps1 | Remove common Windows bloatware. |
-| Remove-ThirdPartyBloatware.py | Remove third-party bloatware. |
-| Uninstall-Windows11Apps.cmd | Uninstall default Windows 11 apps. |
-
 ## Boot Options
 | Script | Description |
 |--------|-------------|
@@ -476,12 +666,6 @@ The public scripts repository for the WinPick Client.
 | Enable-SafeMode.cmd | Enable Safe Mode. |
 | Set-BootTimeout.bat | Set boot timeout. |
 
-## Grey Hat
-| Script | Description |
-|--------|-------------|
-| DownloadWindows.py | Download Windows installation media. |
-| Get.Activated.Win.ps1 | Activate Windows. |
-
 ## Script Templates
 | Script | Description |
 |--------|-------------|
@@ -489,193 +673,9 @@ The public scripts repository for the WinPick Client.
 | Template.ps1 | PowerShell script template. |
 | Template.py | Python script template. |
 
-## System Tweaks
+## Grey Hat
 | Script | Description |
 |--------|-------------|
-| Disable-Accessibility-Keys.ps1 | System tweak: Disable-Accessibility-Keys. |
-| Disable-Action-Center.ps1 | System tweak: Disable-Action-Center. |
-| Disable-Aero-Shake.ps1 | System tweak: Disable-Aero-Shake. |
-| Disable-GameDVR-GameBar.ps1 | System tweak: Disable-GameDVR-GameBar. |
-| Enable-Classic-Battery-Flyout.ps1 | System tweak: Enable-Classic-Battery-Flyout. |
-| Enable-Classic-Context-Menu.ps1 | System tweak: Enable-Classic-Context-Menu. |
-| Enable-Classic-Volume-Flyout.ps1 | System tweak: Enable-Classic-Volume-Flyout. |
-| Enable-Crash-Dumps.ps1 | System tweak: Enable-Crash-Dumps. |
-| Enable-God-Mode.ps1 | System tweak: Enable-God-Mode. |
-| Enable-Photo-Viewer.ps1 | System tweak: Enable-Photo-Viewer. |
-| Enable-Verbose-Startup.ps1 | System tweak: Enable-Verbose-Startup. |
-| Set-Explorer-ThisPC.ps1 | System tweak: Set-Explorer-ThisPC. |
-| Show-File-Extensions.ps1 | System tweak: Show-File-Extensions. |
-| Show-Hidden-Files.ps1 | System tweak: Show-Hidden-Files. |
-| Use-UTC-SystemClock.ps1 | System tweak: Use-UTC-SystemClock. |
-
-## System Utilities
-| Script | Description |
-|--------|-------------|
-| Clear-Temp.ps1 | Utility: Clear-Temp. |
-| Create-File.ps1 | Utility: Create-File. |
-| Edit-Hosts.ps1 | Utility: Edit-Hosts. |
-| Enable-Trusted-Remoting.ps1 | Utility: Enable-Trusted-Remoting. |
-| Extract-HTMLTable.ps1 | Utility: Extract-HTMLTable. |
-| Get-Clipboard-History.ps1 | Utility: Get-Clipboard-History. |
-| Get-DotNet-Version.ps1 | Utility: Get-DotNet-Version. |
-| Get-Installed.ps1 | Utility: Get-Installed. |
-| Get-MSIFile-Information.ps1 | Utility: Get-MSIFile-Information. |
-| Install-Chocolatey.ps1 | Utility: Install-Chocolatey. |
-| Install-Docker.ps1 | Utility: Install-Docker. |
-| Install-GitHub-CLI.ps1 | Utility: Install-GitHub-CLI. |
-| Install-WSL.ps1 | Utility: Install-WSL. |
-| Invoke-ConcatenateCSV.ps1 | Utility: Invoke-ConcatenateCSV. |
-| Kill-Chrome.ps1 | Utility: Kill-Chrome. |
-| Kill-Notepad.ps1 | Utility: Kill-Notepad. |
-| List-Installed-Software.ps1 | Utility: List-Installed-Software. |
-| List-Services.ps1 | Utility: List-Services. |
-| List-Tasks.ps1 | Utility: List-Tasks. |
-| Open-Windows-Terminal.ps1 | Utility: Open-Windows-Terminal. |
-| Remove-Docker-Trash.ps1 | Utility: Remove-Docker-Trash. |
-| Repair-Path.ps1 | Utility: Repair-Path. |
-| Restart-Bluetooth.ps1 | Utility: Restart-Bluetooth. |
-| Restart-Network-Adapters.ps1 | Utility: Restart-Network-Adapters. |
-| Save-Download.ps1 | Utility: Save-Download. |
-| Save-Screenshot.ps1 | Utility: Save-Screenshot. |
-| Set-Sleep-Schedule.ps1 | Utility: Set-Sleep-Schedule. |
-| Set-Wallpaper.ps1 | Utility: Set-Wallpaper. |
-| Start-Chrome-Fullscreen.ps1 | Utility: Start-Chrome-Fullscreen. |
-| Start-Chrome.ps1 | Utility: Start-Chrome. |
-| Start-Notepad-Maximized.ps1 | Utility: Start-Notepad-Maximized. |
-| Test-Reboot-Pending.ps1 | Utility: Test-Reboot-Pending. |
-| Uninstall-PowerShellModuleAndDependencies.ps1 | Utility: Uninstall-PowerShellModuleAndDependencies. |
-| Update-AllPowerShellModules.ps1 | Utility: Update-AllPowerShellModules. |
-| Update-Choco.ps1 | Utility: Update-Choco. |
-| Update-Environment.ps1 | Utility: Update-Environment. |
-| Update-PowerShellResource.ps1 | Utility: Update-PowerShellResource. |
-
-## Win11Debloat
-| Script | Description |
-|--------|-------------|
-| Run-Script-Silent-With-Log.ps1 | Win11Debloat: Run-Script-Silent-With-Log. |
-| Apply-Regfile-To-Default-Profile.ps1 | Win11Debloat: Apply-Regfile-To-Default-Profile. |
-| Apply-Regfile-To-User.ps1 | Win11Debloat: Apply-Regfile-To-User. |
-| Create-System-Restore-Point.ps1 | Win11Debloat: Create-System-Restore-Point. |
-| Disable-Windows-Recall.ps1 | Win11Debloat: Disable-Windows-Recall. |
-| Disable-Telemetry-Diagnostic-Data.ps1 | Win11Debloat: Disable-Telemetry-Diagnostic-Data. |
-| Disable-App-Launch-Tracking-And-Ads.ps1 | Win11Debloat: Disable-App-Launch-Tracking-And-Ads. |
-| Disable-Activity-History.ps1 | Win11Debloat: Disable-Activity-History. |
-| Remove-HP-OEM-Apps.ps1 | Win11Debloat: Remove-HP-OEM-Apps. |
-| Remove-Gaming-Apps.ps1 | Win11Debloat: Remove-Gaming-Apps. |
-| Remove-Mail-Calendar-People.ps1 | Win11Debloat: Remove-Mail-Calendar-People. |
-| Remove-Custom-Win11Debloat-Apps.ps1 | Win11Debloat: Remove-Custom-Win11Debloat-Apps. |
-| Remove-Default-Win11Debloat-Apps.ps1 | Win11Debloat: Remove-Default-Win11Debloat-Apps. |
-| Disable-Modern-Standby-Networking.ps1 | Win11Debloat: Disable-Modern-Standby-Networking. |
-| Disable-Fast-Startup.ps1 | Win11Debloat: Disable-Fast-Startup. |
-| Disable-Game-Bar-Integration.ps1 | Win11Debloat: Disable-Game-Bar-Integration. |
-| Disable-Game-DVR.ps1 | Win11Debloat: Disable-Game-DVR. |
-| Disable-Sticky-Keys-Shortcut.ps1 | Win11Debloat: Disable-Sticky-Keys-Shortcut. |
-| Disable-Mouse-Acceleration.ps1 | Win11Debloat: Disable-Mouse-Acceleration. |
-| Disable-Animations.ps1 | Win11Debloat: Disable-Animations. |
-| Disable-Transparency-Effects.ps1 | Win11Debloat: Disable-Transparency-Effects. |
-| Enable-Dark-Mode.ps1 | Win11Debloat: Enable-Dark-Mode. |
-| Hide-Context-Menu-Share.ps1 | Win11Debloat: Hide-Context-Menu-Share. |
-| Hide-Context-Menu-Give-Access-To.ps1 | Win11Debloat: Hide-Context-Menu-Give-Access-To. |
-| Hide-Context-Menu-Include-In-Library.ps1 | Win11Debloat: Hide-Context-Menu-Include-In-Library. |
-| Restore-Classic-Context-Menu.ps1 | Win11Debloat: Restore-Classic-Context-Menu. |
-| Hide-Explorer-Music.ps1 | Win11Debloat: Hide-Explorer-Music. |
-| Hide-Explorer-3D-Objects.ps1 | Win11Debloat: Hide-Explorer-3D-Objects. |
-| Hide-Explorer-OneDrive.ps1 | Win11Debloat: Hide-Explorer-OneDrive. |
-| Hide-Duplicate-Removable-Drives.ps1 | Win11Debloat: Hide-Duplicate-Removable-Drives. |
-| Hide-Explorer-Gallery.ps1 | Win11Debloat: Hide-Explorer-Gallery. |
-| Hide-Explorer-Home.ps1 | Win11Debloat: Hide-Explorer-Home. |
-| Add-Folders-To-This-PC.ps1 | Win11Debloat: Add-Folders-To-This-PC. |
-| Show-File-Extensions.ps1 | Win11Debloat: Show-File-Extensions. |
-| Show-Hidden-Files.ps1 | Win11Debloat: Show-Hidden-Files. |
-| Set-Explorer-Launch-To.ps1 | Win11Debloat: Set-Explorer-Launch-To. |
-| Set-Taskbar-MultiMonitor-Icons.ps1 | Win11Debloat: Set-Taskbar-MultiMonitor-Icons. |
-| Set-Taskbar-Combine-Mode.ps1 | Win11Debloat: Set-Taskbar-Combine-Mode. |
-| Enable-Taskbar-Last-Active-Click.ps1 | Win11Debloat: Enable-Taskbar-Last-Active-Click. |
-| Enable-Taskbar-End-Task.ps1 | Win11Debloat: Enable-Taskbar-End-Task. |
-| Hide-Chat-Meet-Now.ps1 | Win11Debloat: Hide-Chat-Meet-Now. |
-| Disable-Widgets.ps1 | Win11Debloat: Disable-Widgets. |
-| Hide-Task-View-Button.ps1 | Win11Debloat: Hide-Task-View-Button. |
-| Set-Taskbar-Search-Mode.ps1 | Win11Debloat: Set-Taskbar-Search-Mode. |
-| Align-Taskbar-Left.ps1 | Win11Debloat: Align-Taskbar-Left. |
-| Disable-Phone-Link-In-Start.ps1 | Win11Debloat: Disable-Phone-Link-In-Start. |
-| Disable-Start-Recommended.ps1 | Win11Debloat: Disable-Start-Recommended. |
-| Set-Start-Pins.ps1 | Win11Debloat: Set-Start-Pins. |
-| Disable-Notepad-AI-Features.ps1 | Win11Debloat: Disable-Notepad-AI-Features. |
-| Disable-Paint-AI-Features.ps1 | Win11Debloat: Disable-Paint-AI-Features. |
-| Disable-Edge-AI-Features.ps1 | Win11Debloat: Disable-Edge-AI-Features. |
-| Disable-Click-To-Do.ps1 | Win11Debloat: Disable-Click-To-Do. |
-| Disable-Microsoft-Copilot.ps1 | Win11Debloat: Disable-Microsoft-Copilot. |
-| Disable-Bing-Cortana-In-Search.ps1 | Win11Debloat: Disable-Bing-Cortana-In-Search. |
-| Disable-Edge-Ads-And-Suggestions.ps1 | Win11Debloat: Disable-Edge-Ads-And-Suggestions. |
-| Disable-Desktop-Spotlight.ps1 | Win11Debloat: Disable-Desktop-Spotlight. |
-| Disable-Lock-Screen-Tips.ps1 | Win11Debloat: Disable-Lock-Screen-Tips. |
-| Disable-Settings-Suggestions-And-Ads.ps1 | Win11Debloat: Disable-Settings-Suggestions-And-Ads. |
-| Disable-Windows-Suggestions.ps1 | Win11Debloat: Disable-Windows-Suggestions. |
-| Disable-Telemetry-Activity-Ads.ps1 | Win11Debloat: Disable-Telemetry-Activity-Ads. |
-| Appslist.txt | Win11Debloat app list. |
-
-## Win11Debloat/Regfiles
-| File | Description |
-|------|-------------|
-| Disable_Game_Bar_Integration.reg | Win11Debloat reg: Disable_Game_Bar_Integration. |
-| Disable_DVR.reg | Win11Debloat reg: Disable_DVR. |
-| Disable_Modern_Standby_Networking.reg | Win11Debloat reg: Disable_Modern_Standby_Networking. |
-| Disable_Fast_Startup.reg | Win11Debloat reg: Disable_Fast_Startup. |
-| Disable_Sticky_Keys_Shortcut.reg | Win11Debloat reg: Disable_Sticky_Keys_Shortcut. |
-| Disable_Enhance_Pointer_Precision.reg | Win11Debloat reg: Disable_Enhance_Pointer_Precision. |
-| Disable_Animations.reg | Win11Debloat reg: Disable_Animations. |
-| Disable_Transparency.reg | Win11Debloat reg: Disable_Transparency. |
-| Enable_Dark_Mode.reg | Win11Debloat reg: Enable_Dark_Mode. |
-| Disable_Share_from_context_menu.reg | Win11Debloat reg: Disable_Share_from_context_menu. |
-| Disable_Give_access_to_context_menu.reg | Win11Debloat reg: Disable_Give_access_to_context_menu. |
-| Disable_Include_in_library_from_context_menu.reg | Win11Debloat reg: Disable_Include_in_library_from_context_menu. |
-| Disable_Show_More_Options_Context_Menu.reg | Win11Debloat reg: Disable_Show_More_Options_Context_Menu. |
-| Hide_Music_Folder.reg | Win11Debloat reg: Hide_Music_Folder. |
-| Hide_3D_Objects_Folder.reg | Win11Debloat reg: Hide_3D_Objects_Folder. |
-| Hide_Onedrive_Folder.reg | Win11Debloat reg: Hide_Onedrive_Folder. |
-| Hide_duplicate_removable_drives_from_navigation_pane_of_File_Explorer.reg | Win11Debloat reg: Hide_duplicate_removable_drives_from_navigation_pane_of_File_Explorer. |
-| Hide_Gallery_from_Explorer.reg | Win11Debloat reg: Hide_Gallery_from_Explorer. |
-| Hide_Home_from_Explorer.reg | Win11Debloat reg: Hide_Home_from_Explorer. |
-| Add_All_Folders_Under_This_PC.reg | Win11Debloat reg: Add_All_Folders_Under_This_PC. |
-| Show_Extensions_For_Known_File_Types.reg | Win11Debloat reg: Show_Extensions_For_Known_File_Types. |
-| Show_Hidden_Folders.reg | Win11Debloat reg: Show_Hidden_Folders. |
-| Launch_File_Explorer_To_OneDrive.reg | Win11Debloat reg: Launch_File_Explorer_To_OneDrive. |
-| Launch_File_Explorer_To_Downloads.reg | Win11Debloat reg: Launch_File_Explorer_To_Downloads. |
-| Launch_File_Explorer_To_This_PC.reg | Win11Debloat reg: Launch_File_Explorer_To_This_PC. |
-| Launch_File_Explorer_To_Home.reg | Win11Debloat reg: Launch_File_Explorer_To_Home. |
-| MMTaskbarMode_Active.reg | Win11Debloat reg: MMTaskbarMode_Active. |
-| MMTaskbarMode_Main_Active.reg | Win11Debloat reg: MMTaskbarMode_Main_Active. |
-| MMTaskbarMode_All.reg | Win11Debloat reg: MMTaskbarMode_All. |
-| Combine_MMTaskbar_Never.reg | Win11Debloat reg: Combine_MMTaskbar_Never. |
-| Combine_MMTaskbar_When_Full.reg | Win11Debloat reg: Combine_MMTaskbar_When_Full. |
-| Combine_MMTaskbar_Always.reg | Win11Debloat reg: Combine_MMTaskbar_Always. |
-| Combine_Taskbar_Never.reg | Win11Debloat reg: Combine_Taskbar_Never. |
-| Combine_Taskbar_When_Full.reg | Win11Debloat reg: Combine_Taskbar_When_Full. |
-| Combine_Taskbar_Always.reg | Win11Debloat reg: Combine_Taskbar_Always. |
-| Enable_Last_Active_Click.reg | Win11Debloat reg: Enable_Last_Active_Click. |
-| Enable_End_Task.reg | Win11Debloat reg: Enable_End_Task. |
-| Disable_Chat_Taskbar.reg | Win11Debloat reg: Disable_Chat_Taskbar. |
-| Disable_Widgets_Service.reg | Win11Debloat reg: Disable_Widgets_Service. |
-| Hide_Taskview_Taskbar.reg | Win11Debloat reg: Hide_Taskview_Taskbar. |
-| Show_Search_Box.reg | Win11Debloat reg: Show_Search_Box. |
-| Show_Search_Icon_And_Label.reg | Win11Debloat reg: Show_Search_Icon_And_Label. |
-| Show_Search_Icon.reg | Win11Debloat reg: Show_Search_Icon. |
-| Hide_Search_Taskbar.reg | Win11Debloat reg: Hide_Search_Taskbar. |
-| Align_Taskbar_Left.reg | Win11Debloat reg: Align_Taskbar_Left. |
-| Disable_Phone_Link_In_Start.reg | Win11Debloat reg: Disable_Phone_Link_In_Start. |
-| Disable_Start_Recommended.reg | Win11Debloat reg: Disable_Start_Recommended. |
-| Disable_Notepad_AI_Features.reg | Win11Debloat reg: Disable_Notepad_AI_Features. |
-| Disable_Paint_AI_Features.reg | Win11Debloat reg: Disable_Paint_AI_Features. |
-| Disable_Edge_AI_Features.reg | Win11Debloat reg: Disable_Edge_AI_Features. |
-| Disable_Click_to_Do.reg | Win11Debloat reg: Disable_Click_to_Do. |
-| Disable_AI_Recall.reg | Win11Debloat reg: Disable_AI_Recall. |
-| Disable_Copilot.reg | Win11Debloat reg: Disable_Copilot. |
-| Disable_Bing_Cortana_In_Search.reg | Win11Debloat reg: Disable_Bing_Cortana_In_Search. |
-| Disable_Settings_Home.reg | Win11Debloat reg: Disable_Settings_Home. |
-| Disable_Settings_365_Ads.reg | Win11Debloat reg: Disable_Settings_365_Ads. |
-| Disable_Desktop_Spotlight.reg | Win11Debloat reg: Disable_Desktop_Spotlight. |
-| Disable_Lockscreen_Tips.reg | Win11Debloat reg: Disable_Lockscreen_Tips. |
-| Disable_Edge_Ads_And_Suggestions.reg | Win11Debloat reg: Disable_Edge_Ads_And_Suggestions. |
-| Disable_Windows_Suggestions.reg | Win11Debloat reg: Disable_Windows_Suggestions. |
-| Disable_Telemetry.reg | Win11Debloat reg: Disable_Telemetry. |
+| DownloadWindows.py | Download Windows installation media. |
+| Get.Activated.Win.ps1 | Activate Windows. |
 
